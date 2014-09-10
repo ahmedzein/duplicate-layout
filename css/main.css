@@ -14,10 +14,17 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+    
+    background-color: #ccc;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.dino {
+    background-color: #fff;
+    overflow: hidden;
 }
 
 body {
@@ -31,16 +38,27 @@ img {
     
 }
 
-figcaption {
-    position: absolute;
+.graphic {
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
-h1
+.graphic-caption {
+    background-color: rgba (0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+}
 
+.info {
+    float: left;
+    padding: 1em;
+    width; 33.3333%;
+    border-right: 1px solid #ccc; 
+}
 
-h2
-
-
-p
-
+.info.last-child {
+    border: 0;
+}
 
